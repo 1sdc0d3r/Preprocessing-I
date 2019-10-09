@@ -5,52 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Digital Resume</title>
+    <link href="/less/index.css" type="text/css" rel="stylesheet" />
   </head>
-
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
   <div class="container">
+    <header>
+      <nav>
+        <ul>
+          <li class="grow"><a href="#">Home</a></li>
+          <li class="grow"><a href="#">About</a></li>
+          <li class="grow">
+            <a href="./assets/portfolio-phantom/Phantom/index.html"
+              >Portfolio</a
+            >
+          </li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
     <body>
       <section class="top-sect">
-        <img href="img path" />
+        <img src="./img/profile-pic.jpeg" />
         <!--todo find and add image path-->
-        <h1>Braden Bell - Developer</h1>
-        <span>Coding is my way of life</span>
+        <h1>Braden Bell - <span class="dev">Developer</span></h1>
+        <span>Coding is my way of life!</span>
         <!--* add border-top here-->
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolor
-          cumque deserunt dignissimos impedit, nobis!
-        </p>
+        <div class="education">
+          <h3>Education</h3>
+          <ul>
+            <li>
+              Northern Utah Academy of Math Engineering and Science.<br />
+              Layton, Utah — High School graduate, 2016
+            </li>
+            <li>
+              Lambda School—Full Stack Web Development<br />
+              October 2019 - current
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="bottom-sect">
         <div class="btm-top">
           <div class="left">
             <h3>About me</h3>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae
-              laudantium, repellat sunt inventore error totam at iusto atque
-              cupiditate iure, ab beatae ipsa laboriosam deserunt aperiam animi
-              explicabo molestias perspiciatis.
+              A dedicated worker with 12+ years of experience in a few different
+              environments. I am always looking to increase my work experience
+              and working on self improvement to achieve my highest potential.
             </p>
           </div>
           <div class="right">
-            <h2>Skills and Hobbies</h2>
+            <h3>Skills and Achievements</h3>
             <ul>
-              <li>information here</li>
-              <li>information here</li>
-              <li>information here</li>
-              <li>information here</li>
-              <li>information here</li>
-              <li>information here</li>
+              <li>Leader</li>
+              <li>Responsible</li>
+              <li>Communication</li>
+              <li>Quick Learner</li>
+              <li>Problem Solver</li>
+              <li>Eagle Scout</li>
             </ul>
           </div>
         </div>
@@ -62,30 +74,53 @@
               <th>Company</th>
               <th>Title</th>
               <th>Obligations</th>
+              <th>Additional Info</th>
             </thead>
             <tr>
-              <td>yrs</td>
-              <td>comp</td>
-              <td>title</td>
-              <td>obs</td>
+              <td>5</td>
+              <td>Bell Photographers</td>
+              <td>Printer and Processor</td>
+              <td>
+                I was part of the team that received the pictures from the
+                photographers and handled the pre-printing preparation using
+                special software. I was then able to print and process the
+                pictures.
+              </td>
+              <td>
+                I started working here when I was 8 years old
+              </td>
             </tr>
+
             <tr>
-              <td>yrs</td>
-              <td>comp</td>
-              <td>title</td>
-              <td>obs</td>
+              <td>7</td>
+              <td>Bell Printing & Design</td>
+              <td>Bindery & Printing, Receptionist</td>
+              <td>
+                I ran the full process from printing the job to seeing it
+                through shipping or delivery. I was able to work the front as a
+                receptionist . I worked with data entry, customer service,
+                Invoices billing, and helping keep things organized.
+              </td>
+              <td>
+                I was also able to run almost all the printers and machinery
+                equipment.
+              </td>
             </tr>
+
             <tr>
-              <td>yrs</td>
-              <td>comp</td>
-              <td>title</td>
-              <td>obs</td>
-            </tr>
-            <tr>
-              <td>yrs</td>
-              <td>comp</td>
-              <td>title</td>
-              <td>obs</td>
+              <td>1</td>
+              <td>Vector Marketing</td>
+              <td>Assistant Manager, Sales Representative</td>
+              <td>
+                Setting appointments for demonstrations and service calls were a
+                major part of my responsibilities. As assistant manager I
+                conducted interviews,schedule, plan, and execute sales meetings,
+                as well as activities for our office.
+              </td>
+              <td>
+                Here I was able to push myself and able to to become the #2
+                salesman for the year 2018.
+              </td>
             </tr>
           </table>
         </div>
