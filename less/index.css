@@ -1,0 +1,230 @@
+@import url(/Users/Braden/Documents/Lambda_FSW/1. Web fundementals/2. Advanced CSS/3. Digital Resume/Preprocessing-I/less/normalize.css);
+.container {
+  width: 95%;
+  margin: auto;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.container header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.container header nav {
+  width: 50%;
+  margin-right: 5%;
+}
+
+.container header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 20%;
+  background: skyblue;
+  border: 1px solid green;
+}
+
+.container header nav ul li {
+  margin: 2%;
+  margin-right: 9%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.container header nav a {
+  text-decoration: none;
+  color: black;
+  background: #dac5e4;
+  padding: 4% 8%;
+  margin: 10%;
+  border-radius: 20%;
+  text-align: center;
+}
+
+.container header nav a:hover {
+  -webkit-transition: all ease-in-out 255ms;
+  transition: all ease-in-out 255ms;
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  background: #bdbdaf;
+}
+
+.top-sect {
+  background-image: linear-gradient(217deg, #4e434d 5%, #798b4d 15%, #dac5e4 68%);
+  z-index: -1;
+  border-bottom: ridge 2.2px #464444;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0.5%;
+}
+
+.top-sect img {
+  height: 235px;
+  width: 180px;
+  margin: 5%;
+  margin-bottom: 0.75%;
+  margin-left: 13.5%;
+  border-radius: 12%;
+  border: 1px solid black;
+}
+
+.top-sect h1 {
+  margin-left: 2.5%;
+  font-size: 2.3rem;
+  margin-bottom: 1%;
+}
+
+.top-sect h1 .dev {
+  font-style: italic;
+  text-decoration: none;
+  margin-left: 0;
+}
+
+.top-sect span {
+  width: 95%;
+  margin-left: 4%;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.top-sect .education {
+  border-top: 1px solid black;
+  margin-top: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.top-sect .education h3 {
+  text-align: center;
+  -webkit-text-emphasis: underline;
+          text-emphasis: underline;
+  margin-bottom: 0;
+}
+
+.top-sect .education ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.top-sect .education ul li {
+  margin: 1.7%;
+  margin-left: 27%;
+}
+
+.bottom-sect .btm-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 2%;
+}
+
+.bottom-sect .btm-top .left {
+  width: 46%;
+}
+
+.bottom-sect .btm-top .left h3 {
+  text-align: center;
+}
+
+.bottom-sect .btm-top .right {
+  width: 46%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.bottom-sect .btm-top .right h3 {
+  text-align: center;
+}
+
+.bottom-sect .btm-top .right ul {
+  padding-left: 3%;
+  margin: auto;
+}
+
+.bottom-sect .btm-btm {
+  border-top: 1px dashed black;
+  margin-top: 6%;
+  padding-top: 5%;
+}
+
+.bottom-sect .btm-btm h2 {
+  text-align: center;
+}
+
+.bottom-sect .btm-btm table {
+  width: 100%;
+  border: 1.5px solid black;
+}
+
+.bottom-sect .btm-btm thead {
+  background: skyblue;
+}
+
+.bottom-sect .btm-btm thead th {
+  border: 3px solid grey;
+}
+
+.bottom-sect .btm-btm tbody td {
+  text-align: center;
+  border: 1px solid grey;
+}
+
+footer {
+  background: grey;
+  margin-bottom: none;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  padding: 2%;
+}
+/*# sourceMappingURL=index.css.map */
